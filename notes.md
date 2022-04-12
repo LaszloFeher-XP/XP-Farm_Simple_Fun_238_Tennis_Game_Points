@@ -27,4 +27,6 @@
 - create scenarios 🚧
 - create tests 🚧
 - create logic 🚧
-- 1st test ❌
+- 4th test ❌
+- 4th test ✅
+- 5th test ✅

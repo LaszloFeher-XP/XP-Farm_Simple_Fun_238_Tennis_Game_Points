@@ -1,8 +1,11 @@
 class Kata {
 
   tennisGamePoints(score) {
+    let result = 0;
     let scores = score.split('-');
-    return this.checkPoint(scores[0]);
+    result += this.checkPoint(scores[0]);
+    result += this.checkPoint(scores[1]);
+    return result;
   }
 
   checkPoint(point) {
@@ -12,7 +15,10 @@ class Kata {
     if (point === '30') {
       return 2;
     }
-    return 1;
+    if (point === '15') {
+      return 1;
+    }
+    return 0;
   }
 }
 
