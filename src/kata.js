@@ -3,12 +3,12 @@ class Kata {
   tennisGamePoints(score) {
     let result = 0;
     let scores = score.split('-');
-    result += this.checkPoint(scores[0]);
-    result += this.checkPoint(scores[1]);
+    result += this.checkSinglePoint(scores[0]);
+    result += this.checkSecondPoint(scores[1], scores[0]);
     return result;
   }
 
-  checkPoint(point) {
+  checkSinglePoint(point) {
     if (point === '40') {
       return 3;
     }
@@ -18,10 +18,16 @@ class Kata {
     if (point === '15') {
       return 1;
     }
-    if (point === '15') {
-      return 1;
+    if (point === 'love') {
+      return 0;
     }
-    return 0;
+  }
+
+  checkSecondPoint(point, all) {
+    if (point === 'all') {
+      return this.checkSinglePoint(all);
+    }
+    return this.checkSinglePoint(point);
   }
 }
 

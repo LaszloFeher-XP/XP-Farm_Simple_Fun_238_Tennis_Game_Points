@@ -76,17 +76,17 @@ So that create logic for checking first part
 #### Scenarios 
 
 #### 1. 
-Given the score which is 15-0
+Given the score which is 15-love
 When the first part of the score is checked
 Then value is 1
 
 #### 2. 
-Given the score which is 30-0
+Given the score which is 30-love
 When the first part of the score is checked
 Then value is 2
 
 #### 3. 
-Given the score which is 40-0
+Given the score which is 40-love
 When the first part of the score is checked
 Then value is 3
 
