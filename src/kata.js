@@ -1,10 +1,10 @@
 class Kata {
 
-    func() {
-
-    }
+  tennisGamePoints(score) {
+    return -1;
+  }
 }
 
 module.exports = {
-    Kata,
+  Kata,
 };
