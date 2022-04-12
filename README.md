@@ -97,7 +97,7 @@ So that create logic for checking first part
 
 #### Scenarios 
 
-#### 4. 
+#### 4. feat
 Given the score which is 0-15
 When the first part of the score is checked
 Then value is 1
