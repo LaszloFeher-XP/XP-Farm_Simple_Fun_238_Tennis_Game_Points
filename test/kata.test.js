@@ -10,6 +10,11 @@ describe('Checking first scores', () => {
     const kata = new Kata();
     expect(kata.tennisGamePoints('30-0')).toStrictEqual(2);
   });
+
+  test('GIVEN 40-0 WHEN logic THEN returns 3', () => {
+    const kata = new Kata();
+    expect(kata.tennisGamePoints('40-0')).toStrictEqual(3);
+  });
 });
 
 

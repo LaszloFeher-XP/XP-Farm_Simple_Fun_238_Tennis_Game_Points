@@ -2,14 +2,18 @@ class Kata {
 
   tennisGamePoints(score) {
     let scores = score.split('-');
-    console.log(scores);
-    if (scores[0] === '30') {
+    return this.checkPoint(scores[0]);
+  }
+
+  checkPoint(point) {
+    if (point === '40') {
+      return 3;
+    }
+    if (point === '30') {
       return 2;
     }
     return 1;
   }
-
-  checkScore()
 }
 
 module.exports = {
