@@ -21,7 +21,7 @@
 - 3rd test ❌
 - 3rd test ✅
 
-## 1. Pomodoro
+## 2. Pomodoro
 - create notes 🚧
 - create user stories 🚧
 - create scenarios 🚧
@@ -31,3 +31,13 @@
 - 4th test ✅
 - 5th test ✅
 - 6th test ✅
+
+## 3. Pomodoro
+- create notes 🚧
+- create user stories ✔
+- create scenarios ✔
+- create tests 🚧
+- create logic 🚧
+- 7th test ❌
+- 7th test ✅
+- 8th test ✅ 

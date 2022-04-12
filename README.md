@@ -92,25 +92,58 @@ Then value is 3
 
 ### 2. Checking second scores
 As a User
-I want to check the first scores
-So that create logic for checking first part
+I want to check the second scores
+So that create logic for checking second part
 
 #### Scenarios 
 
 #### 4. feat
-Given the score which is 0-15
-When the first part of the score is checked
+Given the score which is love-15
+When the second part of the score is checked
 Then value is 1
 
 #### 5. 
-Given the score which is 0-30
-When the first part of the score is checked
+Given the score which is love-30
+When the second part of the score is checked
 Then value is 2
 
 #### 6. 
-Given the score which is 0-40
-When the first part of the score is checked
+Given the score which is love-40
+When the second part of the score is checked
 Then value is 3
+
+### 3. Checking complex scores
+As a User
+I want to check the complex scores
+So that create logic for checking the whole part
+
+#### Scenarios 
+
+#### 7. 
+Given the score which is 15-40
+When the whole part of the score is checked
+Then value is 4
+
+#### 8. 
+Given the score which is 30-love
+When the whole part of the score is checked
+Then value is 2
+
+#### 9. 
+Given the score which is 15-all
+When the whole part of the score is checked
+Then value is 2
+
+#### 10. 
+Given the score which is 30-all
+When the whole part of the score is checked
+Then value is 4
+
+#### 10. 
+Given the score which is 40-all
+When the whole part of the score is checked
+Then value is 6
+
 
 # Setting up the environment 
 

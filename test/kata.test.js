@@ -34,5 +34,16 @@ describe('Checking second scores', () => {
 });
 
 
+describe('Checking complex scores', () => {
+  test('GIVEN 15-40 WHEN logic THEN returns 4', () => {
+    const kata = new Kata();
+    expect(kata.tennisGamePoints('15-40')).toStrictEqual(4);
+  });
 
+  test('GIVEN 30-love WHEN logic THEN returns 2', () => {
+    const kata = new Kata();
+    expect(kata.tennisGamePoints('30-love')).toStrictEqual(2);
+  });
+
+});
 
