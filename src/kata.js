@@ -18,6 +18,9 @@ class Kata {
     if (point === '15') {
       return 1;
     }
+    if (point === '15') {
+      return 1;
+    }
     return 0;
   }
 }
