@@ -8,6 +8,8 @@ class Kata {
     }
     return 1;
   }
+
+  checkScore()
 }
 
 module.exports = {
