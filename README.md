@@ -90,6 +90,28 @@ Given the score which is 40-0
 When the first part of the score is checked
 Then value is 3
 
+### 2. Checking second scores
+As a User
+I want to check the first scores
+So that create logic for checking first part
+
+#### Scenarios 
+
+#### 4. 
+Given the score which is 0-15
+When the first part of the score is checked
+Then value is 1
+
+#### 5. 
+Given the score which is 0-30
+When the first part of the score is checked
+Then value is 2
+
+#### 6. 
+Given the score which is 0-40
+When the first part of the score is checked
+Then value is 3
+
 # Setting up the environment 
 
 ## To install dependencies 

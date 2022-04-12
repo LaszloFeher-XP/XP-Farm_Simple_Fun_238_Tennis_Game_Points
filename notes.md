@@ -20,3 +20,11 @@
 - 2nd test ✅
 - 3rd test ❌
 - 3rd test ✅
+
+## 1. Pomodoro
+- create notes 🚧
+- create user stories 🚧
+- create scenarios 🚧
+- create tests 🚧
+- create logic 🚧
+- 1st test ❌
