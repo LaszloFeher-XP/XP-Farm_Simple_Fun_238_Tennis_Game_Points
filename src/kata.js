@@ -1,7 +1,7 @@
 class Kata {
 
   tennisGamePoints(score) {
-    return -1;
+    return 1;
   }
 }
 
