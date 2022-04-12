@@ -33,11 +33,11 @@
 - 6th test ✅
 
 ## 3. Pomodoro
-- create notes 🚧
+- create notes ✔
 - create user stories ✔
 - create scenarios ✔
-- create tests 🚧
-- create logic 🚧
+- create tests ✔
+- create logic ✔
 - 7th test ❌
 - 7th test ✅
 - 8th test ✅ 
